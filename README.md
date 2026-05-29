@@ -2,9 +2,6 @@
 
 # 📰 Fake News Detection using Machine Learning
 
-A Machine Learning web application that detects whether a news article is **Real** or **Fake** using **Logistic Regression** and Natural Language Processing (NLP).
-
----
 
 ## 🚀 Live Demo
 
