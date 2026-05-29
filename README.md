@@ -5,37 +5,40 @@
 
 ## 🚀 Live Demo
 
-🔗 Add your deployed Streamlit link here:
-
-```text
-https://fake-news-detection-4u58f7zwchto5jbnzbudxs.streamlit.app/
-```
+🔗 https://fake-news-detection-4u58f7zwchto5jbnzbudxs.streamlit.app/
 
 ---
 
 ## 📌 Project Overview
 
-# Fake News Detection using Machine Learning
+This project is a Streamlit-based web application that predicts whether a news article is fake or real using Machine Learning techniques and NLP-based text vectorization.
 
-A Streamlit-based web application that detects whether a news article is **Real** or **Fake** using Machine Learning and Natural Language Processing (NLP).
+The model is trained using Logistic Regression and helps classify news content efficiently.
 
-## Features
+---
 
-- Detects fake and real news articles
-- Simple and interactive Streamlit interface
-- Machine Learning based prediction
-- Uses trained Logistic Regression model
-- Text vectorization using NLP techniques
+## ✨ Features
 
-## Technologies Used
+* Detects fake and real news articles
+* Simple and interactive Streamlit interface
+* Machine Learning based prediction
+* Uses trained Logistic Regression model
+* NLP text vectorization
+* Dataset-based news selection
 
-- Python
-- Streamlit
-- Scikit-learn
-- Joblib
-- NLP / Text Vectorization
+---
 
-## Project Structure
+## 🛠 Technologies Used
+
+* Python
+* Streamlit
+* Scikit-learn
+* Joblib
+* NLP / Text Vectorization
+
+---
+
+## 📂 Project Structure
 
 ```bash
 ├── app.py
@@ -43,6 +46,7 @@ A Streamlit-based web application that detects whether a news article is **Real*
 ├── requirements.txt
 ├── vectorizer.jb
 ├── LR_model.jb
+<<<<<<< HEAD
 
 *## How to Use*
 
@@ -52,3 +56,17 @@ A Streamlit-based web application that detects whether a news article is **Real*
 4. The model predicts whether the selected news is:
    - Real News
    - Fake News
+=======
+```
+
+---
+
+## 📖 How to Use
+
+1. Open the application using the live link or locally.
+2. Select a news article from the dataset.
+3. Click on **Check**.
+4. The model predicts whether the news is:
+   - Real News
+   - Fake News
+
