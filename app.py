@@ -1,4 +1,3 @@
-
 import streamlit as st
 import joblib
 
@@ -24,4 +23,3 @@ if st.button("Check"):
             st.error("The news is fake")
     else:
         st.warning("Please enter any text to analyze") 
-  
