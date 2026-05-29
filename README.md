@@ -56,4 +56,3 @@ The model is trained using Logistic Regression and helps classify news content e
 4. The model predicts whether the news is:
    - Real News
    - Fake News
-

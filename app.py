@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-# Loading the saved artifacts [6, 7]
+# Loading the saved artifacts 
 vectorizer = joblib.load('vectorizer.jb')
 model = joblib.load('LR_model.jb')
 
@@ -12,11 +12,11 @@ user_input = st.text_area("Enter News Content")
 
 if st.button("Check"): 
     if user_input:
-        # Transforming and predicting [7]
+        # Transforming and predicting 
         data = vectorizer.transform([user_input])
         prediction = model.predict(data)
         
-        # Displaying results: 1 is Real, 0 is Fake [7]
+        # Displaying results: 1 is Real, 0 is Fake
         if prediction == 1:
             st.success("The news is real")
         else:
