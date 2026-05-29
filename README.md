@@ -45,6 +45,7 @@ The model is trained using Logistic Regression and helps classify news content e
 ├── requirements.txt
 ├── vectorizer.jb
 ├── LR_model.jb
+```
 
 ---
 
