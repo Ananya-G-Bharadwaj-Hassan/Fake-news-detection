@@ -1,5 +1,3 @@
-# ML_fake_news_detection
-
 # 📰 Fake News Detection using Machine Learning
 
 ## 🚀 Live Demo
@@ -57,3 +55,4 @@ The model is trained using Logistic Regression and helps classify news content e
 4. The model predicts whether the news is:
    - Real News
    - Fake News
+
