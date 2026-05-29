@@ -43,3 +43,12 @@ A Streamlit-based web application that detects whether a news article is **Real*
 ├── requirements.txt
 ├── vectorizer.jb
 ├── LR_model.jb
+
+*## How to Use*
+
+1. Open the application using the live link or run locally.
+2. Select a news article from the provided dataset.
+3. Click on **Check**.
+4. The model predicts whether the selected news is:
+   - Real News
+   - Fake News
